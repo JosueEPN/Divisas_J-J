@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Divisas.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,8 @@ namespace Divisas
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage(new Home());
         }
 
         protected override void OnStart()

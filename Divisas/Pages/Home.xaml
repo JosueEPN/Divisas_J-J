@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Divisas.Pages.Home">
+    
+
+       
+    <StackLayout Orientation="Vertical"
+                 
+                 HorizontalOptions="CenterAndExpand" 
+                 Padding=" 20"
+                 BackgroundColor="#fc7f7f"
+               >
+
+        <Image Source="https://upload.wikimedia.org/wikipedia/commons/8/8c/Escudo_de_la_Escuela_Polit%C3%A9cnica_Nacional.png" />
+                <Label Text="APP Convertidor de Divisas "   
+                       HorizontalOptions="Center"
+                        FontSize="30"   
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontFamily="Lobster"                
+                    />          
+               
+                <Label 
+                  
+                   Text="Escuela Politecnica Nacional"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" 
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="White"
+           
+                       />
+
+                <Label Text="Jhosef Rea"
+                  
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="White"
+           
+                       />
+
+
+        <Label
+                   Text="Josué Singaña"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                       />
+        <Button
+            CornerRadius="20"
+            BackgroundColor="DarkRed"
+            TextColor="White"
+            FontAttributes="Bold"
+            FontSize="20"
+            TextTransform="None"
+            x:Name="btnPageCvet" Text="Convertir" Clicked="btnPageCvet_Clicked"/>
+    </StackLayout>
+   
+</ContentPage>
